@@ -25,15 +25,15 @@ python train_classification.py
 
 In `all_experiments.ipynb` notebook, I show the full training and inference pipeline(on model training and inference; the data augmentation and data loading are the same as baseline) for the modification on :
 
--baseline(U-Net input transform and U-Net feature transform)
--baseline(U-Net input transform and TNet feature transform)
--baseline(TNet input transform and U-Net feature transform)
+*baseline(U-Net input transform and U-Net feature transform)
+*baseline(U-Net input transform and TNet feature transform)
+*baseline(TNet input transform and U-Net feature transform)
 
 and also the modification part just on:
 
--Weighted Cross Entropy Loss(way2)
--Resampling data(Undersampling)
--Data Augmentation(Shuffle)
+*Weighted Cross Entropy Loss(way2)
+*Resampling data(Undersampling)
+*Data Augmentation(Shuffle)
 
 But the full training and inference pipeline can be find in their respective jupyter notebook.
 
@@ -42,14 +42,14 @@ But the full training and inference pipeline can be find in their respective jup
 #The checkpoint of this work can be found in the `early_stop_ckpt` and `ckpt` folder in the server side.
 
 # Notebooks
--`inputTrans_UNet.ipynb`: a modification which change only input transform T-Net in PointNet to UNet.
--`featureTrans.ipynb`: a modification which change only feature transform T-Net in PointNet to UNet.
--`inputTrans_UNet_featureTrans_UNet.ipynb`: a modification which change both the TNet network of input and feature transform to UNet.
--`weighted_CE_loss1.ipynb`:an implementation of PointNet with weighted CE loss(way 1)
--`weighted_CE_loss2.ipynb`: an implementation of PointNet with weighted CE loss(way 2).
--`undersampling.ipynb`: an implementation of PointNet with undersampling data.
--`baseline_with_shuffle.ipynb`: the implementation of PointNet with shuffled data points.
-`the_baseline.ipynb`:an implementation of PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation.
+*`inputTrans_UNet.ipynb`: a modification which change only input transform T-Net in PointNet to UNet.
+*`featureTrans.ipynb`: a modification which change only feature transform T-Net in PointNet to UNet.
+*`inputTrans_UNet_featureTrans_UNet.ipynb`: a modification which change both the TNet network of input and feature transform to UNet.
+*`weighted_CE_loss1.ipynb`:an implementation of PointNet with weighted CE loss(way 1)
+*`weighted_CE_loss2.ipynb`: an implementation of PointNet with weighted CE loss(way 2).
+*`undersampling.ipynb`: an implementation of PointNet with undersampling data.
+*`baseline_with_shuffle.ipynb`: the implementation of PointNet with shuffled data points.
+*`the_baseline.ipynb`:an implementation of PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation.
 
 # Performance
 
