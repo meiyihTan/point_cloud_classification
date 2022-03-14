@@ -9,7 +9,7 @@ Objectives:
 
 1.To develop a deep learning based model to classify the category(shape recognition of 3D point cloud) of the given input point cloud.
 
-The model is in `pointnet/model.py`.
+The model is in `model.py`.
 
 # Data 
 Dataset used is ModelNet40, which is normalizes to [-1,1] (provided by the Akirakan group).
@@ -17,8 +17,7 @@ Dataset used is ModelNet40, which is normalizes to [-1,1] (provided by the Akira
 # Training 
 
 ```
-cd utils
-python train_classification.py 
+......
 ```
 
 
