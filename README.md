@@ -17,9 +17,10 @@ Dataset used is ModelNet40, which is normalizes to [-1,1] (provided by the Akira
 # Training 
 
 ```
-......
+...to be updated...
 ```
 
+#The notebook work are complete
 
 # Modifications
 6 different modifications/experiments were done in this work.
@@ -53,9 +54,9 @@ But the full training and inference pipeline can be find in their respective jup
 * `the_baseline.ipynb`:an implementation of PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation.
 
 # Performance
-
+...to be updated...
 ## Classification performance
-
+...to be updated...
 
 # Links
 
