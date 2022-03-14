@@ -39,9 +39,9 @@ and also the modification part just on:
 
 But the full training and inference pipeline can be find in their respective jupyter notebook.
 
-#The `all_experiments.ipynb` notebook is not in this repo, but located in the ‘/home/meiyih/shape_recognition/ModelNet40_data/’ directory in the server. I grouped all the experiments core cells and have all my explanations in this notebook rather than other ipynb files, but I am unable to download it down. 
+-The `all_experiments.ipynb` notebook is not in this repo, but located in the ‘/home/meiyih/shape_recognition/ModelNet40_data/’ directory in the server. I grouped all the experiments core cells and have all my explanations in this notebook rather than other ipynb files, but I am unable to download it down. 
 
-#The checkpoint of this work can be found in the `early_stop_ckpt` and `ckpt` folder in the server side.
+-The checkpoint of this work can be found in the `early_stop_ckpt` and `ckpt` folder in the server side.
 
 # Notebooks
 * `inputTrans_UNet.ipynb`: a modification which change only input transform T-Net in PointNet to UNet.
