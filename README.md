@@ -2,9 +2,11 @@
 This repo is a work on Point Cloud Classification with PointNet(https://arxiv.org/abs/1612.00593) as the baseline in pytorch. You can click [here](https://docs.google.com/document/d/1lNPMejT5hPoa-btcG6Bv2YBOYpjswFQNqcnAJXFTXU4/edit#) for the full report and details explanation of this work. 
 
 Problem statement: 
+
 1.To set up a training/inference pipeline for shape recognition of 3D point clouds.
  
 Objectives: 
+
 1.To develop a deep learning based model to classify the category(shape recognition of 3D point cloud) of the given input point cloud.
 
 The model is in `pointnet/model.py`.
