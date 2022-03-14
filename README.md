@@ -20,7 +20,7 @@ Dataset used is ModelNet40, which is normalizes to [-1,1] (provided by the Akira
 ...to be updated...
 ```
 
-#The notebook work are complete
+#The work on the notebooks is completed, but the .py conversion is not completely done yet.
 
 # Modifications
 6 different modifications/experiments were done in this work.
